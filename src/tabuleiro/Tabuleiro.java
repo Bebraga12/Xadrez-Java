@@ -1,12 +1,15 @@
 package tabuleiro;
 
-public class Position {
+public class Tabuleiro {
     private int linha;
     private int coluna;
+    private Peca[][] peca;
 
-    public Position(int linha, int coluna) {
+
+    public Tabuleiro(int linha, int coluna) {
         this.linha = linha;
         this.coluna = coluna;
+        peca  = new Peca[linha][coluna];
     }
 
     public int getLinha() {
@@ -25,8 +28,7 @@ public class Position {
         this.coluna = coluna;
     }
 
-    @Override
-    public String toString(){
-        return linha + ", " + coluna;
-    }
+   
+
+
 }

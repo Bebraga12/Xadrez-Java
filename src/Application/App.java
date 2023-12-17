@@ -1,11 +1,15 @@
 package Application;
 
-import tabuleiro.position;
+import tabuleiro.Position;
+import tabuleiro.Tabuleiro;
 
 public class App {
     public static void main(String[] args) {
-        position p = new position(6, 9);
-        System.out.println(p);
+        
+        
+        Tabuleiro t = new Tabuleiro(4, 6);
+        
+        
     }
     
 }
