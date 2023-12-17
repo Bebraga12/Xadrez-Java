@@ -3,6 +3,7 @@ package tabuleiro;
 public class position {
     private int linha;
     private int coluna;
+    private int apagar;
 
     public position(int linha, int coluna) {
         this.linha = linha;
